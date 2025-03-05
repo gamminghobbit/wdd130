@@ -26,11 +26,11 @@ main section {
 
 body{background-color: #d3ffe9;}
 header{background-color: #00915e;}
-/* nav a:hover{background-color: ;}
-.book{background-color: ;}
-.join{background-color: ;}
-.book:hover{background-color: ;}
-.join:hover{background-color: ;}
-#background{background-color: ;}*/
+ nav a:hover{background-color: #a30b37;}
+.book{background-color: #8ddbe0;}
+.join{background-color: #8ddbe0;}
+.book:hover{background-color: #a30b37;}
+.join:hover{background-color: #a30b37;}
+#background{background-color: #a30b37;}
 .msg{background-color: #00915e;}
 footer{background-color: #00915e;} 
