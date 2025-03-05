@@ -1,29 +1,24 @@
-#content {
+#hero-box {
     max-width: 1600px;
     margin: auto
 }
-
 nav a {
     text-align: center;  /* Centers text inside nav links */
     display: block;  /* Ensures links take up full width to center properly */
 }
-
 #hero-msg h1, #hero-msg h4 {
     text-align: center;  /* Centers the heading and subheading */
 }
-
 .button-box {
     text-align: center;  /* Centers any buttons inside */
 }
-
 main section {
     text-align: center;  /* Centers content inside each section */
 }
-
 #background {
     height: 725px;
 }
-
+/* for the color of either fonts or backgrounsd.*/
 body{background-color: #d3ffe9;}
 header{background-color: #00915e;}
  nav a:hover{background-color: #a30b37;}
@@ -31,6 +26,14 @@ header{background-color: #00915e;}
 .join{background-color: #8ddbe0;}
 .book:hover{background-color: #a30b37;}
 .join:hover{background-color: #a30b37;}
-#background{background-color: #a30b37;}
+#background{background-color: #00915e;}
 .msg{background-color: #00915e;}
 footer{background-color: #00915e;} 
+nav a{background-color: #a30b37;}
+.home-title{background-color: black;}
+h4{background-color: #a30b37;}
+.msg h2{background-color: black;}
+.msg p{background-color: black;}
+footer{background-color: #00915e;}
+footer a{background-color: #00915e;}
+footer a:hover{background-color: #d3ffe9;}
