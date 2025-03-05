@@ -23,3 +23,14 @@ main section {
 #background {
     height: 725px;
 }
+
+body{background-color: #d3ffe9;}
+header{background-color: #00915e;}
+/* nav a:hover{background-color: ;}
+.book{background-color: ;}
+.join{background-color: ;}
+.book:hover{background-color: ;}
+.join:hover{background-color: ;}
+#background{background-color: ;}
+.msg{background-color: ;}
+footer{background-color: ;} */
