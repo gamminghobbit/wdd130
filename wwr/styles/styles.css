@@ -2,3 +2,24 @@
     max-width: 1600px;
     margin: auto
 }
+
+nav a {
+    text-align: center;  /* Centers text inside nav links */
+    display: block;  /* Ensures links take up full width to center properly */
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;  /* Centers the heading and subheading */
+}
+
+.button-box {
+    text-align: center;  /* Centers any buttons inside */
+}
+
+main section {
+    text-align: center;  /* Centers content inside each section */
+}
+
+#background {
+    height: 725px;
+}
