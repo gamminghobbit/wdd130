@@ -1,6 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap');
+
+/*my font types & sizes & body/h2 margin reset*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand",  Helvetica, sans-serif;
+}
+h2{
+    margin: 0;
+}
+.home-title, .msg h2{
+    font-family: "Oswald", Helvetica, sans-serif;
+    font-size: 2em;
+}
+.book, .join {
+    font-size: 18px;
+}
+.msg p {
+    font-size: 2em;
+}
+.msg {
+    line-height: 1.5em;
+}
+
+/*my padding and the respected sizes.*/
+#logo_link {
+    padding-top: 5px; /* Adds space above the logo */
+}
+nav a {
+    padding: 35px; /* Expands clickable area for navigation links */
+}
+.book, .join {
+    padding: 15px 30px; /* Adds padding inside buttons for better spacing */
+}
+.icon {
+    padding-top: 10px; /* Prevents icons from touching the top */
+}
+.msg {
+    padding: 35px; /* Ensures the message section has enough space inside */
+}
+.msg p {
+    padding-bottom: 15px; /* Adds spacing below paragraphs in .msg */
+}
+footer {
+    padding: 25px 50px; /* Adds breathing room in the footer */
+}
+footer .social img {
+    padding-top: 15px; /* Creates space above social media icons */
+}
+
+/* my spaces and placements of photos, buttons, and the like*/
 #hero-box {
     max-width: 1600px;
-    margin: auto
+    margin: auto;
 }
 nav a {
     text-align: center;  /* Centers text inside nav links */
@@ -19,24 +71,12 @@ main section {
     height: 725px;
 }
 /* for the color of either fonts or backgrounsd.*/
-body{background-color: #d3ffe9;}
-header{background-color: #00915e;}
- nav a:hover{background-color: #a30b37;}
-.book{background-color: #8ddbe0;}
-.join{background-color: #8ddbe0;}
-.book:hover{background-color: #a30b37;}
-.join:hover{background-color: #a30b37;}
-#background{background-color: #00915e;}
-.msg{background-color: #00915e;}
-footer{background-color: #00915e;} 
-nav a{background-color: #a30b37;}
-.home-title{background-color: #8ddbe0;}
-h4{background-color: #a30b37;}
-.msg h2{background-color: #00915e;}
-.msg p{background-color: #00915e;}
-footer{background-color: #00915e;}
-footer a{background-color: #00915e;}
-footer a:hover{background-color: #d3ffe9;}
+body { background-color: #d3ffe9; }
+header, #background, .msg, footer a { background-color: #00915e; }
+nav a, h4 { background-color: #a30b37; }
+.book, .join, .home-title { background-color: #8ddbe0; }
+.book:hover, .join:hover, nav a:hover { background-color: #a30b37; }
+footer a:hover { background-color: #d3ffe9; }
 
 /*the next set is for the sizes.*/
 .logo {
@@ -49,6 +89,33 @@ footer a:hover{background-color: #d3ffe9;}
     width: 100%;
 }
 
+
+/* Ensuring elements have proper spacing from edges */
+
+#logo_link {
+    padding-top: 5px; /* Adds space above the logo */
+}
+nav a {
+    padding: 35px; /* Expands clickable area for navigation links */
+}
+.book, .join {
+    padding: 15px 30px; /* Adds padding inside buttons for better spacing */
+}
+.icon {
+    padding-top: 10px; /* Prevents icons from touching the top */
+}
+.msg {
+    padding: 35px; /* Ensures the message section has enough space inside */
+}
+.msg p {
+    padding-bottom: 15px; /* Adds spacing below paragraphs in .msg */
+}
+footer {
+    padding: 25px 50px; /* Adds breathing room in the footer */
+}
+footer .social img {
+    padding-top: 15px; /* Creates space above social media icons */
+}
 
 /*this block of focus on removing underlines and manage hover effects */
 nav a {
