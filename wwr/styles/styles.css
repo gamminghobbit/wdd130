@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap');
 
-/* ===== Font Styles & Resets ===== */
+/*my font types & sizes & body/h2 margin reset*/
 body {
     margin: 0;
     padding: 0;
-    font-family: "Quicksand", Helvetica, sans-serif;
+    font-family: "Quicksand",  Helvetica, sans-serif;
 }
-h2 {
+h2{
     margin: 0;
 }
-.home-title, .msg h2 {
+.home-title, .msg h2{
     font-family: "Oswald", Helvetica, sans-serif;
     font-size: 2em;
 }
@@ -23,7 +23,7 @@ h2 {
     line-height: 1.5em;
 }
 
-/* ===== Padding & Spacing ===== */
+/*my padding and the respected sizes.*/
 #logo_link {
     padding-top: 5px; /* Adds space above the logo */
 }
@@ -49,24 +49,28 @@ footer .social img {
     padding-top: 15px; /* Creates space above social media icons */
 }
 
-/* ===== Layout & Centering ===== */
+/* my spaces and placements of photos, buttons, and the like*/
 #hero-box {
     max-width: 1600px;
     margin: auto;
 }
 nav a {
-    text-align: center;  
-    display: block;  
+    text-align: center;  /* Centers text inside nav links */
+    display: block;  /* Ensures links take up full width to center properly */
 }
-#hero-msg h1, #hero-msg h4, 
-.button-box, main section {
-    text-align: center;  
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;  /* Centers the heading and subheading */
+}
+.button-box {
+    text-align: center;  /* Centers any buttons inside */
+}
+main section {
+    text-align: center;  /* Centers content inside each section */
 }
 #background {
     height: 725px;
 }
-
-/* ===== Background Colors ===== */
+/* for the color of either fonts or backgrounsd.*/
 body { background-color: #d3ffe9; }
 header, #background, .msg, footer a { background-color: #00915e; }
 nav a, h4 { background-color: #a30b37; }
@@ -74,21 +78,71 @@ nav a, h4 { background-color: #a30b37; }
 .book:hover, .join:hover, nav a:hover { background-color: #a30b37; }
 footer a:hover { background-color: #d3ffe9; }
 
-/* ===== Element Sizes ===== */
-.logo, .icon {
+/*the next set is for the sizes.*/
+.logo {
+    width: 80px;
+}
+.icon {
     width: 80px;
 }
 #hero-img {
     width: 100%;
 }
 
-/* ===== Text Decoration & Effects ===== */
-nav a, .book, .join, footer a {
+
+/* Ensuring elements have proper spacing from edges */
+
+#logo_link {
+    padding-top: 5px; /* Adds space above the logo */
+}
+nav a {
+    padding: 35px; /* Expands clickable area for navigation links */
+}
+.book, .join {
+    padding: 15px 30px; /* Adds padding inside buttons for better spacing */
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img{
+    border: 10px solid #00915e;
+}
+main section img {
+    box-sizing: border-box;
+}
+.icon {
+    padding-top: 10px; /* Prevents icons from touching the top */
+}
+.msg {
+    padding: 35px; /* Ensures the message section has enough space inside */
+}
+.msg p {
+    padding-bottom: 15px; /* Adds spacing below paragraphs in .msg */
+}
+footer {
+    padding: 25px 50px; /* Adds breathing room in the footer */
+}
+footer .social img {
+    padding-top: 15px; /* Creates space above social media icons */
+}
+
+/*this block of focus on removing underlines and manage hover effects */
+nav a {
+    text-align: center;  
+    display: block;  
     text-decoration: none;  
 }
+.book, .join {
+    text-decoration: none;  
+}
+footer a {
+    text-decoration: none;  
+}
+/* Underline on hover for footer links */
 footer p a:hover {
     text-decoration: underline;  
 }
+
+/* Larger font size for footer text */
 footer p {
     font-size: 1.2em;  
 }
