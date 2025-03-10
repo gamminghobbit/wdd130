@@ -71,11 +71,15 @@
 } 
 /* Activity 3 styles */ 
 .content3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-column: auto;
   /* This is the parent of the activity 3 boxes. */
 }
 .red3 {
-  width: 100px; 
-  height: 100px; 
+  width: 100%; 
+  height: 200px; 
   background-color: red; 
 } 
 .green3 {
@@ -89,8 +93,8 @@
   background-color: gold; 
 } 
 .blue3 {
-  width: 100px;
-  height: 100px; 
+  width: 100%;
+  height: 200px; 
   background-color: blue; 
 } 
 /* Activity 4 styles */ 
