@@ -1,6 +1,8 @@
 /* CSS - Name: "positionstyles.css" */
 /* Activity 1 styles */
 .content1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   /* This is the parent of the activity 1 boxes. */
 
 }
@@ -11,14 +13,14 @@
 
 } 
 .green1 {
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 200px; 
   background-color: green; 
 
 } 
 .yellow1 {
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 200px; 
   background-color: gold; 
 } 
 .blue1 {
