@@ -191,3 +191,12 @@ footer p {
         margin-top: 25px;
     }
   }
+
+  nav{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-size: 1.2em;
+    list-style-type: none;
+    line-height: 3em;
+    z-index:1;
+  }
