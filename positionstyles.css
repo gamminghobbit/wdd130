@@ -92,7 +92,7 @@
   width: 200px; 
   height: 100px; 
   background-color: gold;
-  grid-column: 3/4; 
+  grid-column: 3; 
 } 
 .blue3 {
   width: 100%;
