@@ -90,13 +90,13 @@
   grid-column: 1/2;
 } 
 .yellow3 {
-  width: 100px; 
+  width: 200px; 
   height: 100px; 
   background-color: gold;
   grid-column: 2/3; 
 } 
 .blue3 {
-  width: 100%;
+  width: 200%;
   height: 100px; 
   background-color: blue;
   grid-column: 1/3; 
