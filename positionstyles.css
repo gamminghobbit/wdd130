@@ -73,7 +73,7 @@
 .content3 {
   display: grid;
   grid-template-columns: 40% 20% 40%;
-  grid-column-gap: 20px;
+  grid-column-gap: 0px;
   grid-column: auto;
   /* This is the parent of the activity 3 boxes. */
 }
