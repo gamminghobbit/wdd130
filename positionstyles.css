@@ -111,32 +111,32 @@
   /* justify-items: center; */
 }
 .red4 {
-  width: 100px; 
-  height: 100px; 
+  /* width: 100px;  */
+  height: 400px; 
   background-color: red; 
   grid-column: 1/2;
   grid-row: 1/4;
   /* justify-self: stretch; */
 } 
 .green4 {
-  width: 100px; 
-  height: 100px; 
+  /* width: 100px;  */
+  height: 133px; 
   background-color: green; 
   grid-column: 2/3;
   grid-row: 1/2;
   /* justify-self: stretch; */
 } 
 .yellow4 {
-  width: 100px; 
-  height: 100px; 
+  /* width: 100px;  */
+  height: 133px; 
   background-color: gold; 
   grid-column: 2/3;
   grid-row: 2/3;
   /* justify-self: stretch; */
 } 
 .blue4 {
-  width: 100px; 
-  height: 100px; 
+  /* width: 100px;  */
+  height: 133px; 
   background-color: blue; 
   grid-column: 2/3;
   grid-row: 3/4;
@@ -164,6 +164,7 @@
 .yellow5 {
   width: 100px; 
   height: 100px; 
+  float:left;
   background-color: gold; 
 
 } 
@@ -180,6 +181,7 @@
   width: 100px; 
   height: 100px; 
   background-color: red; 
+  grid-column: span 4
 } 
 .green6 {
   width: 100px; 
