@@ -105,7 +105,7 @@
   /* This is the parent of the activity 4 boxes. */
   height: 400px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   /* justify-items: center; */
 }
@@ -130,7 +130,7 @@
   height: 100px; 
   background-color: gold; 
   grid-column: 2/3;
-  grid-row: 2/3
+  grid-row: 2/3;
   /* justify-self: stretch; */
 } 
 .blue4 {
