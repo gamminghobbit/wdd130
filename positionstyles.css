@@ -106,7 +106,7 @@
   /* This is the parent of the activity 4 boxes. */
   height: 400px;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   /* justify-items: center; */
 }
@@ -146,12 +146,9 @@
 .content5 {
   /* This is the parent of the activity 5 boxes. */
   height: 400px;
-  display: grid;
-  grid-template-columns: (4,1fr);
-  grid-template-rows: (4,1fr);
 }
 .red5 { 
-  width: 100px; 
+  /* width: 100px;  */
   height: 100px; 
   background-color: red; 
 } 
@@ -162,14 +159,14 @@
 
 } 
 .yellow5 {
-  width: 100px; 
+  /* width: 100px;  */
   height: 100px; 
-  float:left;
+  float: left;
   background-color: gold; 
 
 } 
 .blue5 {
-  width: 100px; 
+  /* width: 100px;  */
   height: 100px; 
   background-color: blue; 
 } 
@@ -180,8 +177,7 @@
 .red6 {
   width: 100px; 
   height: 100px; 
-  background-color: red; 
-  grid-column: span 4
+  background-color: red;
 } 
 .green6 {
   width: 100px; 
