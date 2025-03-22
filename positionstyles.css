@@ -107,13 +107,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  justify-items: center;
+  /* justify-items: center; */
 }
 .red4 {
   width: 100px; 
   height: 100px; 
   background-color: red; 
-  /* grid-column: 1/2; */
+  grid-column: 1/2;
   grid-row: 1/4;
   /* justify-self: stretch; */
 } 
@@ -121,18 +121,24 @@
   width: 100px; 
   height: 100px; 
   background-color: green; 
+  grid-column: 2/3;
+  grid-row: 1/2;
   /* justify-self: stretch; */
 } 
 .yellow4 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
+  grid-column: 2/3;
+  grid-row: 2/3
   /* justify-self: stretch; */
 } 
 .blue4 {
   width: 100px; 
   height: 100px; 
   background-color: blue; 
+  grid-column: 2/3;
+  grid-row: 3/4;
   /* justify-self: stretch; */
 } 
 /* Activity 5 styles */ 
