@@ -107,6 +107,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
 }
 .red4 {
   width: 100px; 
@@ -114,25 +115,25 @@
   background-color: red; 
   grid-column: 1/2;
   grid-row: 1/4;
-  justify-self: stretch;
+  /* justify-self: stretch; */
 } 
 .green4 {
   width: 100px; 
   height: 100px; 
   background-color: green; 
-  justify-self: stretch;
+  /* justify-self: stretch; */
 } 
 .yellow4 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
-  justify-self: stretch;
+  /* justify-self: stretch; */
 } 
 .blue4 {
   width: 100px; 
   height: 100px; 
   background-color: blue; 
-  justify-self: stretch;
+  /* justify-self: stretch; */
 } 
 /* Activity 5 styles */ 
 .content5 {
