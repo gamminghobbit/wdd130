@@ -182,9 +182,8 @@
 /* Activity 6 styles */
 .content6 {
   display: grid;
-  grid-template-columns: repeat(3, 100px); /* 3 columns, each 100px */
-  grid-template-rows: repeat(3, 100px); /* 3 rows, each 100px */
-  position: relative;
+  grid-template-columns: (3, 100px); /* 3 columns, each 100px */
+  grid-template-rows: (3, 100px); /* 3 rows, each 100px */
   width: 300px;
   height: 300px;
 }
