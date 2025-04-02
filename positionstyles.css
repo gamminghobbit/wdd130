@@ -143,33 +143,44 @@
   /* justify-self: stretch; */
 } 
 /* Activity 5 styles */ 
-.content5 {
-  /* This is the parent of the activity 5 boxes. */
+..content5 {
   height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers content horizontally */
+  gap: 10px; /* Adds spacing between boxes */
 }
-.red5 { 
-  /* width: 100px;  */
-  height: 100px; 
-  background-color: red; 
-} 
-.green5 { 
-  width: 100px; 
-  height: 100px; 
-  background-color: green; 
 
-} 
+.red5 {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+}
+
 .yellow5 {
-  /* width: 100px;  */
-  height: 100px; 
-  float: left;
-  background-color: gold; 
+  width: 300px; /* Adjust width as needed */
+  min-height: 100px;
+  background-color: gold;
+  position: relative;
+  padding: 10px;
+  overflow: hidden; /* Ensures text stays inside */
+}
 
-} 
+.green5 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
 .blue5 {
-  /* width: 100px;  */
-  height: 100px; 
-  background-color: blue; 
-} 
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+}
+
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
