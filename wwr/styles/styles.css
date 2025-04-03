@@ -116,6 +116,7 @@ nav ul li a:hover {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1; /* Sends image to the back if overlapping is required */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 #hero-img {
@@ -221,9 +222,10 @@ footer .social img {
 @media screen and (max-width: 900px) {
     #hero,
     .home-grid {
-        display: block;
-        height: auto;
+        display: grid;
+        grid-template-columns: repeat(10, 1fr); /* Equal-width columns */
     }
+
     nav,
     footer {
         flex-direction: column;
@@ -240,7 +242,7 @@ footer .social img {
         display: none;
     }
     #hero-msg h1 {
-        color: #6f7364;
+        color: #ffffff;
     }
     .home-title {
         font-size: 25px;
