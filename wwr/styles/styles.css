@@ -94,7 +94,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: #333;
+    color: #ffffff;
     font-size: 18px;
     padding: 5px 10px;
 }
@@ -150,13 +150,13 @@ nav ul li a:hover {
 }
 
 .button-box .book,
-.button-box .join {
+.button-box .join { 
     background-color: #8ddbe0;
     font-size: 18px;
     padding: 15px 30px;
     border-radius: 5px;
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
     transition: background-color 0.3s ease;
 }
 
