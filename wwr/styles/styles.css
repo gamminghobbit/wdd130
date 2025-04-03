@@ -57,7 +57,7 @@ header {
     grid-template-columns: 150px auto; /* Logo fixed width, nav fills remaining space */
     align-items: center;
     padding: 10px 20px;
-    background-color: #fff;
+    background-color: #a30b37;
 }
 
 #logo_link {
@@ -106,13 +106,21 @@ nav ul li a:hover {
 /*========================================
   Hero Section
 ========================================*/
-#hero-box {
-    max-width: 1600px;
-    margin: auto;
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+    background: url('your-image.jpg') no-repeat center center/cover;
+    padding: 0 20px;
+    color: #fff;
 }
 
 #hero-img {
     width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 #hero-msg h1,
@@ -120,9 +128,38 @@ nav ul li a:hover {
     text-align: center;
 }
 
+#hero-msg h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em; /* Adjust size as needed */
+}
+
+#hero-msg h4 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    color: #ddd;
+}
+
 .button-box {
     text-align: center;
+    margin-top: 20px;
 }
+
+.button-box .book,
+.button-box .join {
+    background-color: #8ddbe0;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.button-box .book:hover,
+.button-box .join:hover {
+    background-color: #a30b37;
+}
+
 
 /*========================================
   Main Content
