@@ -1,0 +1,132 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif; /* Replace with a Google Font if needed */
+    background-image: url('pws-image/Main_background.png');
+    background-attachment: fixed;
+    background-size: cover;
+    color: #F8F8F0;
+    line-height: 1.6;
+    padding: 10px;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #444; /* Replace with your chosen color scheme */
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #666;
+}
+
+/* Section Styling */
+section {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for readability */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3 {
+    color: #D4AF37;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #444;
+    color: #fff;
+    margin-top: 20px;
+}
+
+a {
+    color: #A0CFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Optional hover effect */
+    color: #FFD700; /* Optional highlight effect, like gold */
+}
+button {
+    background-color: #AA3333;
+    color: #F8F8F0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #CC4444; /* Slightly lighter crimson for hover */
+}
+
+section {
+    border: 2px solid #444; /* Dark gray border */
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+img {
+    border: 3px solid #B5A642; /* Brass border for images */
+    border-radius: 5px;
+}
+/* Fonts!! */
+/* General Body Font */
+body {
+    font-family: 'Alike', serif; /* Classic serif for general content */
+    color: #F8F8F0; /* Ivory text */
+}
+
+/* Headings Font */
+h1, h2, h3 {
+    font-family: 'Aclonica', sans-serif; /* Bold, modern font for headings */
+    color: #D4AF37; /* Gold for emphasis */
+}
+/* Navigation and Footer Text */
+nav ul li a, footer {
+    font-family: 'Merriweather', serif; /* Elegant and versatile for links and footer */
+    color: #A0CFFF; /* Pale blue for links */
+}
+/* Emphasized Text (Quotes, Highlights, etc.) */
+em, blockquote {
+    font-family: 'Lora', serif; /* Stylish serif for quotes or emphasis */
+    font-style: italic;
+    color: #FFD700; /* Optional: gold accent for emphasis */
+}
