@@ -4,7 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+main{
+    min-height: auto;
+}
 /* Body Styling */
 body {
     font-family: 'Alike', serif; /* Classic serif for general content */
