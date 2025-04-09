@@ -10,10 +10,6 @@ body {
     font-family: Arial, sans-serif; /* Replace with a Google Font if needed */
     background-image: url('pws-image/Main_background.png');
     background-attachment: fixed;
-    background-size: cover;
-    color: rgba(30, 30, 30, 0.8);
-    line-height: 1.6;
-    padding: 10px;
 }
 
 /* Header and Navigation */
