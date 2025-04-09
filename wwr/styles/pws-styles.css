@@ -33,7 +33,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: white;
+    color: #A0CFFF;
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 5px;
@@ -41,7 +41,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #666;
+    background-color: #444;
 }
 
 /* Section Styling */
