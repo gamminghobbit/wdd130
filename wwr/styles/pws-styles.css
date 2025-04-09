@@ -25,7 +25,7 @@ header {
     padding: 10px 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 20px; /* Add spacing between logo and navigation */
 }
 
 /* Logo */
@@ -160,4 +160,25 @@ em, blockquote {
     font-family: 'Lora', serif; /* Stylish and italic font */
     font-style: italic;
     color: #FFD700; /* Gold for emphasis */
+}
+/*for the main page.*/
+.welcome {
+    display: flex; /* Use flexbox to align text and image horizontally */
+    gap: 20px; /* Space between text and image */
+    align-items: center; /* Align items vertically */
+    margin: 20px 0; /* Add spacing above and below */
+}
+
+.welcome-text {
+    flex: 1; /* Make the text take up remaining space */
+}
+
+.welcome-image {
+    max-width: 40%; /* Adjust the size of the image */
+}
+
+.right-image {
+    width: 100%; /* Ensure the image fits within its container */
+    border: 2px solid #B5A642; /* Optional: Add a brass border for aesthetics */
+    border-radius: 10px; /* Optional: Round the corners */
 }
