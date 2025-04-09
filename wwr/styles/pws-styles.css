@@ -183,12 +183,12 @@ em, blockquote {
 
 .welcome-text {
     flex: 1; 
-    grid-column: 0;/* Make the text take up remaining space */
+    grid-column: 1;/* Make the text take up remaining space */
 }
 
 .welcome-image {
     max-width: 20%;
-    grid-column: 1; /* Adjust the size of the image */
+    grid-column: 2; /* Adjust the size of the image */
 }
 
 .right-image {
