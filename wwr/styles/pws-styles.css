@@ -28,9 +28,31 @@ header {
     justify-content: space-between;
 }
 
-header img {
-    max-width: 100px; /* Adjust based on your logo size */
+/* Logo */
+.logo {
+    max-width: 100px; /* Adjust the logo size */
     height: auto;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none; /* Remove bullets */
+    display: flex; /* Align links horizontally */
+    gap: 20px; /* Space between links */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.nav-links li a {
+    color: #A0CFFF; /* Pale blue link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    font-family: 'Merriweather', serif; /* Match site theme */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.nav-links li a:hover {
+    color: #FFD700; /* Gold hover effect */
 }
 
 nav ul {
