@@ -28,6 +28,11 @@ header {
     justify-content: space-between;
 }
 
+header img {
+    max-width: 100px; /* Adjust based on your logo size */
+    height: auto;
+}
+
 nav ul {
     list-style: none; /* Remove bullet points */
     display: flex; /* Horizontal menu */
