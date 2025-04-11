@@ -7,26 +7,81 @@
         <link rel="stylesheet" href="styles/pws-styles.css">
     </head>
     
-<body>
-    <!-- Header -->
-    <header>
-        <div>
-            <img src="pws-image/HG_3.5_logo.png" alt="site logo" style="width: 100px" class="logo">
+    <body>
+        <!-- Side Navigation -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#bard-spells">Bard Spells</a>
+            <a href="#cleric-spells">Cleric Spells</a>
+            <a href="#druid-spells">Druid Spells</a>
         </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="personal-website.html">Home</a></li>
-                <li><a href="Races.html">Races</a></li>
-                <li><a href="Spells.html">Spells</a></li>
-                <li><a href="contactus.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-    </main>
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 My Website</p>
-        <p><a href="personal-site-plan.html">View Site Plan</a></p>
-    </footer>
-</body>
+    
+        <span onclick="openNav()" style="font-size: 30px; cursor: pointer;">&#9776; Open Menu</span>
+    
+        <!-- Page Content -->
+        <div id="main">
+            <!-- Header -->
+            <header>
+                <div>
+                    <img src="pws-image/HG_3.5_logo.png" alt="site logo" style="width: 100px" class="logo">
+                </div>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="personal-website.html">Home</a></li>
+                        <li><a href="Races.html">Races</a></li>
+                        <li><a href="Spells.html">Spells</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+    
+            <!-- Spell Lists -->
+            <main>
+                <section id="bard-spells">
+                    <h2>Bard Spells</h2>
+                    <ul>
+                        <li>Feather Fall</li>
+                        <li>Charm Person</li>
+                        <!-- Add more Bard spells -->
+                    </ul>
+                </section>
+    
+                <section id="cleric-spells">
+                    <h2>Cleric Spells</h2>
+                    <ul>
+                        <li>Bless</li>
+                        <li>Healing Word</li>
+                        <!-- Add more Cleric spells -->
+                    </ul>
+                </section>
+    
+                <section id="druid-spells">
+                    <h2>Druid Spells</h2>
+                    <ul>
+                        <li>Entangle</li>
+                        <li>Goodberry</li>
+                        <!-- Add more Druid spells -->
+                    </ul>
+                </section>
+            </main>
+    
+            <!-- Footer -->
+            <footer>
+                <p>&copy; 2025 My Website</p>
+                <p><a href="personal-site-plan.html">View Site Plan</a></p>
+            </footer>
+        </div>
+    </body>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px"; // Open sidenav
+            document.getElementById("main").style.marginLeft = "250px"; // Push main content
+        }
+    
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0"; // Close sidenav
+            document.getElementById("main").style.marginLeft = "0"; // Reset main content
+        }
+    </script>
+    
