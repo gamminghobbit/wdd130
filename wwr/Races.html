@@ -7,26 +7,74 @@
         <link rel="stylesheet" href="styles/pws-styles.css">
     </head>
     
-<body>
-    <!-- Header -->
-    <header>
-        <div>
-            <img src="pws-image/HG_3.5_logo.png" alt="site logo" style="width: 100px" class="logo">
+    <body>
+        <!-- Side Navigation -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#dwarf">Dwarf</a>
+            <a href="#elf">Elf</a>
+            <a href="#half-orc">Half-Orc</a>
+            <a href="#human">Human</a>
         </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="personal-website.html">Home</a></li>
-                <li><a href="Races.html">Races</a></li>
-                <li><a href="Spells.html">Spells</a></li>
-                <li><a href="contactus.html">Contact Us</a></li>
-            </ul>
-        </nav>
-        <main>
-        </main>
-        <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 My Website</p>
-        <p><a href="personal-site-plan.html">View Site Plan</a></p>
-    </footer>
-    </header>
-</body>
+    
+        <span onclick="openNav()" style="font-size: 30px; cursor: pointer;">&#9776; Open Menu</span>
+    
+        <!-- Main Content -->
+        <div id="main">
+            <!-- Header -->
+            <header>
+                <div>
+                    <img src="pws-image/HG_3.5_logo.png" alt="site logo" style="width: 100px" class="logo">
+                </div>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="personal-website.html">Home</a></li>
+                        <li><a href="Races.html">Races</a></li>
+                        <li><a href="Spells.html">Spells</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+    
+            <!-- Race Sections -->
+            <main>
+                <section id="dwarf">
+                    <h2>Dwarf</h2>
+                    <p>Dwarves are known for their resilience and strength. They are skilled craftsmen and miners.</p>
+                </section>
+    
+                <section id="elf">
+                    <h2>Elf</h2>
+                    <p>Elves are graceful, intelligent, and deeply connected to nature and magic.</p>
+                </section>
+    
+                <section id="half-orc">
+                    <h2>Half-Orc</h2>
+                    <p>Half-Orcs are powerful warriors, combining the strength of Orcs with the determination of humans.</p>
+                </section>
+    
+                <section id="human">
+                    <h2>Human</h2>
+                    <p>Humans are versatile and ambitious, excelling in various roles and adapting to any situation.</p>
+                </section>
+            </main>
+    
+            <!-- Footer -->
+            <footer>
+                <p>&copy; 2025 My Website</p>
+                <p><a href="personal-site-plan.html">View Site Plan</a></p>
+            </footer>
+        </div>
+    </body>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px"; // Open sidenav
+            document.getElementById("main").style.marginLeft = "250px"; // Push main content
+        }
+    
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0"; // Close sidenav
+            document.getElementById("main").style.marginLeft = "0"; // Reset main content
+        }
+    </script>
+    
