@@ -11,7 +11,7 @@
     }
 
     .welcome-image {
-        max-width: 100%; /* Make the image full width */
+        max-width: 50%; /* Make the image full width */
     }
 }
 
