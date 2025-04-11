@@ -21,7 +21,7 @@ main{
 /* Body Styling */
 body {
     font-family: 'Alike', serif; /* Classic serif for general content */
-    background-image: url('pws-image/Main_background.png');
+    background-image: url('../pws-image/Main_background.png');
     background-attachment: fixed;
     background-size: cover;
     margin: 0;
@@ -89,7 +89,7 @@ nav ul li a:hover {
 section {
     margin: 20px 0;
     padding: 15px;
-    background-color: rgba(50, 50, 50, 0.85); /* Slightly lighter semi-transparent dark background */
+    background-color: #F8F8F0; /* Slightly lighter semi-transparent dark background */
     border: 2px solid #444; /* Dark gray border for definition */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
