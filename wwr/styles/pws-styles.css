@@ -204,7 +204,7 @@ em, blockquote {
     z-index: 1; /* Stay on top */
     top: 0; /* Align to top */
     left: 0; /* Align to left */
-    background-color: #ffffff; /* white background */
+    background-color: #000000; /* black background */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Add top padding */
     transition: 0.5s; /* Smooth transition effect */
@@ -242,4 +242,22 @@ em, blockquote {
     .sidenav {
         width: 100%; /* Full-width for smaller screens */
     }
+}
+
+/* Open Menu Button Styling */
+.sidenav-button {
+    font-size: 30px; /* Large font for visibility */
+    cursor: pointer; /* Pointer cursor for interactivity */
+    color: #F8F8F0; /* Light ivory color for text */
+    background-color: #444; /* Dark gray background for contrast */
+    padding: 10px 15px; /* Add padding for a better clickable area */
+    border: 2px solid #FFD700; /* Gold border for a striking look */
+    border-radius: 5px; /* Slightly rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effects */
+}
+
+/* Button Hover Effect */
+.sidenav-button:hover {
+    background-color: #FFD700; /* Gold background on hover */
+    color: #111; /* Dark text for contrast */
 }
