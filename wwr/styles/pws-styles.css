@@ -175,7 +175,6 @@ em, blockquote {
 /*for the main page.*/
 .welcome {
     display: flex; 
-    grid-template-columns: 50%, 50%;/* Use flexbox to align text and image horizontally */
     gap: 20px; /* Space between text and image */
     align-items: auto; /* Align items vertically */
     margin: 20px 0; /* Add spacing above and below */
@@ -187,9 +186,9 @@ em, blockquote {
 }
 
 .welcome-image {
-    max-width: 20%;
-    grid-column: 2; /* Adjust the size of the image */
-}
+    flex: 1;
+    max-width: 40%;
+  }  
 
 .right-image {
     width: 100%; /* Ensure the image fits within its container */
