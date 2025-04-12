@@ -261,3 +261,31 @@ em, blockquote {
     background-color: #FFD700; /* Gold background on hover */
     color: #111; /* Dark text for contrast */
 }
+/* for the web pages that use zebra style tables*/
+.zebra-table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .zebra-table td, .zebra-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .zebra-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray */
+  }
+  
+  .zebra-table tr:hover {
+    background-color: #ddd; /* Slightly darker on hover */
+  }
+  
+  .zebra-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #444;
+    color: white;
+  }
+  
