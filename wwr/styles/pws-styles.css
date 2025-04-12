@@ -270,9 +270,9 @@ em, blockquote {
   }
   
   .zebra-table td, .zebra-table th {
-    border: 1px solid #444; /* Darker border for better contrast */
-    background-color: #fff; /* Add a solid white background for cells */
-    color: #000; /* Make text clearly visible */
+    background-color: #fff !important;
+    color: #000 !important;
+    border: 1px solid #444;
     padding: 8px;
   }
   
